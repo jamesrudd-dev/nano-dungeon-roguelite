@@ -4,7 +4,8 @@
   "description": "Nano Dungeon game developed by example from Roguelike Development with JavaScript by Andre Garzia (Apress, 2020)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
   },
   "author": "James Rudd",
   "license": "MIT",
